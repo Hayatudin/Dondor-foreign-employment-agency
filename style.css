@@ -216,3 +216,24 @@ li a{
     gap: 30px;
     z-index: 100;
 }
+
+.call{
+    color: white;
+
+}
+.meeet{
+    color: black;
+}
+.ourDesc{
+    margin-top: -10px;
+}
+.serve-individual:hover{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    scale: 1.05;
+}
+.serve-individual h4{
+    font-size: 17px;
+    color: rgb(255, 111, 0);
+    transition: 0.2s;
+    margin-top: -10px;
+}
