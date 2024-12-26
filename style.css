@@ -166,3 +166,53 @@ li a{
     flex-shrink: 0;
 
 }
+
+.memberss{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width:170px;
+    height: 210px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.memberss:hover{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    scale: 1.05;
+}
+.memberss h4{
+    color: rgb(255, 111, 0);
+}
+.tteams{
+    width: 100%;
+    padding: 10px 0 0 0 ;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.g{
+    margin-bottom: -15px;
+    background-image: url(image/times1-01.png); 
+}
+.f{
+    background-image: url(image/times2-01.png);
+}
+.e{
+    background-image: url(image/times3-01.png);
+}
+.d{
+    background-image: url(image/times4-01.png);
+}
+.teamers{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    z-index: 100;
+}
