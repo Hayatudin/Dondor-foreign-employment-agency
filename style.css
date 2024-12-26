@@ -119,3 +119,23 @@ li a{
 .her{
     color: rgb(255, 111, 0);
 }
+
+.learnmore{
+    background:rgb(255, 111, 0);
+    border: 1px solid transparent;
+    color: white;
+    padding: 9px 18px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.learnmore:hover{
+    background-color: transparent;
+    border: 1px solid rgb(255, 111, 0);
+    color: rgb(255, 111, 0);
+}
+.hero-bag{
+    width:450px ;
+}
