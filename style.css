@@ -81,3 +81,41 @@ li a{
     color: white;
 
 }
+
+#langg{
+    background-color: transparent;
+    font-weight: 600;
+    border: none;
+    color: rgb(255, 111, 0);
+    cursor: pointer;
+}
+#down{
+    color: white;
+    padding-left: 5px;
+    cursor: pointer;
+
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+    
+}
+.hero-titles{
+    width: 45%;
+    margin-top: 30px;
+    font-family: Arial;
+
+}
+.heero-image{
+    margin-top: 65px;
+}
+.hero-titles h2{
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+.her{
+    color: rgb(255, 111, 0);
+}
