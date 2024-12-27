@@ -322,3 +322,30 @@ li a{
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
     scale: 1.05;
 }
+.count{
+    width: 230px;
+    height: 150px;
+    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(image/dubai.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.destination h3{
+    font-size: 23px;
+    font-weight: 700;
+    color: rgb(231, 104, 6);
+}
+.sec{
+    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(image/saudi.jpeg);
+}
+.thir{
+    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(image/jordan.jpg);
+}
+.fou{
+    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(image/Kuwait.jpg);
+}
+.cityName{
+    font-weight: 600;
+    color: rgb(255, 111, 0);
+}
