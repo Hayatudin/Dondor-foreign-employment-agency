@@ -300,3 +300,25 @@ li a{
     font-weight: bold;
     margin-top: -35px;
 }
+
+.destination{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.countries{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.cities{
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.cities:hover{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    scale: 1.05;
+}
