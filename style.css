@@ -589,3 +589,34 @@ li a{
     margin-top: -5px;
     
 }
+#iconn{
+    background-color: rgb(15, 162, 17);
+    border-radius: 50%;
+    padding: 10px;
+    width: 20px;
+    height: 18px;
+
+}
+.locate{
+    font-size: 13px;
+}
+.second{
+    justify-content: flex-end;
+    right: 0;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: rgb(205, 109, 36);
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: -20px;
+    margin-right: ;
+}
+.r{
+    color: rgb(255, 111, 0)
+}
