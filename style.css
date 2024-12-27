@@ -437,4 +437,66 @@ li a{
 }
 
 
+.last{
+    width: 100%;
+
+}
+.meetTeam{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.meetTeam h3{
+    font-size: 23px;
+    font-weight: 700;
+    color: rgb(231, 104, 6);
+}
+.teamers{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.members{
+    display: flex;
+    flex-direction: column;
+
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 300px;
+    align-items: flex-start;
+    
+
+}
+.members:hover{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    scale: 1.05;
+}
+.teams{
+    width: 100%;
+    height: 260px;
+    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(image/first-man.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.b{
+    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(image/female.jpeg);
+}
+.c{
+    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(image/second-man.jpeg);
+}
+.teamName{
+    font-weight: 600;
+    color: rgb(255, 111, 0);
+}
+.teamRole{
+    font-weight: bold;
+    font-size: 15px;
+    align-self: center;
+    margin-top: -5px;
+}
 
