@@ -549,3 +549,43 @@ li a{
     
 }
 
+
+
+.boxes{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.conta h3{
+    font-size: 23px;
+    font-weight: 700;
+    color: rgb(231, 104, 6);
+}
+.cImage{
+    width: 90%;
+    object-fit: cover;
+    margin-left: 0;
+}
+.overlay{
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-left: -170px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+}
+.overlay i{
+    color: rgb(255, 255, 255);
+    
+}
+.s{
+    margin-top: -5px;
+    
+}
