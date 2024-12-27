@@ -349,3 +349,92 @@ li a{
     font-weight: 600;
     color: rgb(255, 111, 0);
 }
+
+
+.missions{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.missn{
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+
+}
+.missionImage{
+    width: 400px;
+    height: 320px;
+    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(image/meeting2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+
+}
+.missions h3{
+    font-size: 23px;
+    font-weight: 700;
+    color: rgb(231, 104, 6);
+}
+.missionList{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    border-left: 6px solid rgb(255, 111, 0);
+    padding: 0 20px;
+    gap: 20px;
+    
+}
+.mis{
+    width: 400px;
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(image/dark-city.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    font-size: 15px;
+}
+.mis ul li{
+    margin-bottom: 8px;
+    list-style:disc;
+}
+.mis:before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 111, 0);
+    position: absolute;
+    top: 10px;
+    left: -34px;
+
+}
+.mis:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent rgb(12, 12, 81) transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -15px;
+    top: 10px;
+}
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
