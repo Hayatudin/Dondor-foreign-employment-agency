@@ -500,3 +500,52 @@ li a{
     margin-top: -5px;
 }
 
+.last{
+    padding: 30px 0;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('image/dark-city.jpeg ');
+}
+.explore{
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.exp{
+    width: 70%;
+
+}
+.contact{
+    padding: 7px 15px;
+    height: 35px;
+    background-color: rgb(255, 111, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact:hover{
+    background-color: transparent;
+    border: 1px solid rgb(255, 111, 0);
+    color: rgb(255, 111, 0);
+}
+.last{
+    display: flex;
+    align-items: center;
+}
+.conta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.contac{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 90%;
+    
+}
+
