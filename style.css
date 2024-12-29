@@ -799,3 +799,36 @@ li a{
         align-items: center;
         justify-content: center;
     }
+    .contac{
+        
+    }
+    .boxes{
+        width: 100%;
+    }
+    .copyright{
+        font-size: 13px;
+    }
+    .hero-section{
+        width: 70%;
+    }
+    .nav-list ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #29352f;
+        gap: 0;
+        overflow: hidden;
+    }
+    .nav-list ul li{
+        padding: 20px;
+    }
+    .nav-list{
+        width: 150px;
+    }
+    .menu{
+        display: block;
+        float: right;
+    }
