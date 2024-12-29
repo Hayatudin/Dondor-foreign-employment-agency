@@ -863,3 +863,31 @@ li a{
         height: 30px;
     }
 }
+@media(max-with:570px){
+    .nav-bar{
+        gap: 0;
+    }
+}
+
+
+@media (max-width:500px) {
+    .hero-titles h2{
+        font-size: 15px;
+        
+    }
+    .mis{
+        width: 320px;
+    }
+    .missionImage{
+        width: 95%;
+    }
+    .memberss{
+        width: 36%;
+        height: 170px;
+        text-align: center;
+    }
+    .ourDesc{
+        font-size: 12px;
+        
+    }
+    
