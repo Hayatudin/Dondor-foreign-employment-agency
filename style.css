@@ -890,4 +890,33 @@ li a{
         font-size: 12px;
         
     }
-    
+    .provid-detail{
+        font-size: 13px;
+    }
+    .num{
+        font-size: 25px;
+        padding: 15px 0;
+    }
+    .numDiscc{
+        font-size: 13px;
+        
+    }
+
+}
+@media(max-width: 385px){
+    .mis{
+        width: 300px;
+    }
+    .missioners li{
+        font-size: 13px;
+    }
+    .socio{
+        font-size: 13px;
+    }
+    .foots p{
+        font-size: 15px;
+    }
+    .foots a{
+        font-size: 15px;
+    }
+}
