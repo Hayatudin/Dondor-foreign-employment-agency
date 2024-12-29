@@ -761,3 +761,41 @@ li a{
         flex-direction: column;
         align-items: center;
     }
+    .num{
+        font-size: 30px;
+    }
+    .numDiscc{
+        font-size: 15px;
+    }
+    .meeting1{
+        
+    }
+    .contac{
+        flex-direction: column;
+    }
+    .foot{
+        flex-direction: column;
+        align-items: center;
+    }
+    .counter{
+        font-size: 25px;
+    }
+    .last{
+        flex-direction: column;
+
+    }
+    .numDiscc{
+        font-size: 13px;
+    }
+    .missionList{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .explore{
+        font-size: 20px;
+        
+    }
+    .boxes{
+        align-items: center;
+        justify-content: center;
+    }
