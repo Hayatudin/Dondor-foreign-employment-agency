@@ -832,3 +832,34 @@ li a{
         display: block;
         float: right;
     }
+    #navigations{
+        transition: all 0.5s;
+    }
+
+    #langg{
+        margin: 0 0 10px 0;
+    }
+
+    .mapp{
+        overflow: hidden;
+        padding-bottom: 50%;
+        position: relative;
+        height: 0;
+    }
+    .mapp iframe{
+        left: 10%;
+        top: 0;
+        height: 100%;
+        width: 80%;
+        position: absolute;
+    }
+    .nav-bar{
+        justify-content: center;
+        gap: 20px;
+        
+        
+    }
+    .logos{
+        height: 30px;
+    }
+}
