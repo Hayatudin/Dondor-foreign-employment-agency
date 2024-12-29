@@ -663,3 +663,59 @@ li a{
     text-align: center;
     color: rgb(141, 141, 141);
 }
+@media(max-width: 1024px){
+    .countries{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:970px){
+    .hero-bag{
+        width: 300px;
+    }
+    .hero-titles h2{
+        font-size: 18px;
+    }
+    .serve-boxes{
+       width: 80%;
+       flex-wrap: wrap;
+       height: auto;
+
+    }
+    .serve-individual{
+        height: 140px;
+        
+    }
+    .provider-desc{
+        height: 250px;
+
+    }
+    .provider-desc .learnmore{
+        margin-top: -20px;
+    }
+
+    .missionList{
+        justify-content: center;
+    }
+    .countries{
+        max-width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: space-between;
+
+    }
+    .teamers{
+        max-width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mis{
+        width: 350px;
+    }
+    .missionList{
+        margin-left: 15px;
+    }
+}
