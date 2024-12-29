@@ -920,3 +920,22 @@ li a{
         font-size: 15px;
     }
 }
+@media (max-width: 360px) {
+    .mis{
+        width: 280px;
+    }
+    .missioners li{
+        font-size: 12px;
+    }
+    .socio{
+        font-size: 12px;
+    }
+    .foots p{
+        font-size: 14px;
+    }
+    .foots a{
+        font-size: 14px;
+    }
+
+}
+
