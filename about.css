@@ -54,7 +54,6 @@ img{
     flex-shrink: 1;
     
 }
-
 .menu{
     font-size: 20px;
     color: white;
@@ -80,8 +79,15 @@ li a{
     text-decoration: none;
     font-weight: 700;
     color: white;
+
 }
 
+#down{
+    color: white;
+    padding-left: 5px;
+    cursor: pointer;
+
+}
 .hero-section{
     display: flex;
     align-items: center;
@@ -108,7 +114,6 @@ li a{
 .her{
     color: rgb(255, 111, 0);
 }
-
 .provider{
     width: 100%;
     display: flex;
@@ -140,7 +145,6 @@ li a{
     font-weight: 500px;
     color: rgb(231, 104, 6);
 }
-
 .number{
     display: flex;
     justify-content: space-around;
@@ -177,7 +181,6 @@ li a{
     font-weight: bold;
     margin-top: -35px;
 }
-
 .provid-detail{
     font-weight: 500;
     width: 100%;
@@ -250,7 +253,6 @@ li a{
     align-self: center;
     margin-top: -5px;
 }
-
 .foots{
     display: flex;
     flex-direction: column;
@@ -297,6 +299,7 @@ li a{
     text-align: center;
     color: rgb(141, 141, 141);
 }
+
 
 
 @media (max-width:970px){
@@ -346,7 +349,6 @@ li a{
         flex-direction: column;
         align-items: center;
     }
-    
     .copyright{
         font-size: 13px;
     }
