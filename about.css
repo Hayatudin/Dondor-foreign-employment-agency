@@ -297,3 +297,52 @@ li a{
     text-align: center;
     color: rgb(141, 141, 141);
 }
+
+
+@media (max-width:970px){
+    .meeting1{
+        height: 350px;
+        object-fit: cover;
+    }
+    .provid-detail{
+        font-size: 15px;
+    }
+    .teamers{
+        max-width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 750px){
+    .hero-titles{
+        width: 100%;
+        text-align: center;
+    }
+    .provider{
+        flex-direction: column;
+        align-items: center;
+    }
+    .meeting1{
+        width: 80%;
+    }
+    .provider-desc{
+        width: 80%;
+    }
+    .provider-desc h4{
+        margin: 20px 0;
+        text-align: center;
+    }
+    .counter{
+        font-size: 30px;
+
+    }
+    .providers{
+        width: 100%;
+        text-align: center;
+        font-size: 23px;
+    }
+    .foot{
+        flex-direction: column;
+        align-items: center;
+    }
