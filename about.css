@@ -388,3 +388,15 @@ li a{
         display: block;
         float: right;
     }
+
+    #navigations{
+        transition: all 0.5s;
+    }
+    #langg{
+        margin: 0 0 10px 0;
+    }
+    .logos{
+        height: 30px;
+    }
+
+}
