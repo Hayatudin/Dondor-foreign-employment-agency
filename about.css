@@ -177,3 +177,31 @@ li a{
     font-weight: bold;
     margin-top: -35px;
 }
+
+.provid-detail{
+    font-weight: 500;
+    width: 100%;
+}
+.providers{
+    font-size: 30px;
+    width: 290px;
+    font-weight: 500px;
+    color: rgb(231, 104, 6);
+}
+.meetTeam{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.meetTeam h3{
+    font-size: 23px;
+    font-weight: 700;
+    color: rgb(231, 104, 6);
+}
+.teamers{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
