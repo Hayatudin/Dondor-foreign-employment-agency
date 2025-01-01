@@ -54,3 +54,57 @@ img{
     flex-shrink: 1;
     
 }
+
+.menu{
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+.home{
+    color: rgb(255, 111, 0);
+}
+.navigation li a:hover{
+    color: rgb(255, 111, 0);
+}
+.logos{
+    display: flex;
+    height: 50px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+ul{
+    list-style: none;
+
+}
+li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+    
+}
+.hero-titles{
+    width: 45%;
+    margin-top: 30px;
+    font-family: Arial;
+
+}
+.heero-image{
+    margin-top: 65px;
+}
+.hero-titles h2{
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 50px;
+    padding: 0;
+}
+.her{
+    color: rgb(255, 111, 0);
+}
