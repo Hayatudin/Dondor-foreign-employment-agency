@@ -250,3 +250,50 @@ li a{
     align-self: center;
     margin-top: -5px;
 }
+
+.foots{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 30px 20px 0 0;
+}
+.footTitle{
+    color: rgb(255, 111, 0);
+    font-weight: bold;
+
+}
+
+.foot{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+
+
+}
+.link a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+
+}
+.foots a{
+    color: white;
+}
+.footss .link{
+    margin-top: -20px;
+}
+.foots .link{
+    margin-top: -10px;
+}
+.copyright{
+    text-align: center;
+    color: rgb(141, 141, 141);
+}
