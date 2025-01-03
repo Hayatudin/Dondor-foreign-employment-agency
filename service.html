@@ -191,8 +191,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
         update();
     }
+    function checkVisibility() {
+        const rect = descProvider.getBoundingClientRect();
+        if (rect.top >= 0 && rect.bottom <= window.innerHeight && !hasAnimated) {
+            hasAnimated = true; // Ensure animation happens only once
+            percentages.forEach(percent => {
+                const targetPercent = parseInt(percent.textContent.replace('%', ''), 10);
+                animatePercent(percent, targetPercent);
+            });
+        }
+    }
+
+    window.addEventListener('scroll', checkVisibility);
+});
+
 </script>
-    
+
 
 </body>
 </html>
