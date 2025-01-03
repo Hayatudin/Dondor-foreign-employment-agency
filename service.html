@@ -135,5 +135,38 @@
     
     <p class="copyright">copyright <i class="fa-regular fa-copyright"></i> 2024 allright reserved <br> created by hy creative</p>
 </section>
+
+<script>
+     let menuList = document.getElementById("navigations");
+let hamburgerMenu = document.querySelector(".menu");
+
+menuList.style.maxHeight = "0px";
+
+// Toggle the navigation menu
+function toggleMenu() {
+    if (menuList.style.maxHeight === "0px") {
+        menuList.style.maxHeight = "300px";
+    } else {
+        menuList.style.maxHeight = "0px";
+    }
+}
+
+// Close the navigation menu when clicking outside
+document.addEventListener("click", (event) => {
+    // Check if the click is outside the menu and hamburger icon
+    if (!menuList.contains(event.target) && !hamburgerMenu.contains(event.target)) {
+        menuList.style.maxHeight = "0px";
+    }
+});
+
+// Close the navigation menu when a navigation link is clicked
+document.querySelectorAll(".navigation li a").forEach(link => {
+    link.addEventListener("click", () => {
+        menuList.style.maxHeight = "0px";
+    });
+});
+</script>
+    
+
 </body>
 </html>
