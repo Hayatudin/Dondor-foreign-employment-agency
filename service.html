@@ -165,6 +165,32 @@ document.querySelectorAll(".navigation li a").forEach(link => {
         menuList.style.maxHeight = "0px";
     });
 });
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const descProvider = document.querySelector('.desc-provider');
+    const percentages = descProvider.querySelectorAll('.percent');
+
+    let hasAnimated = false;
+
+    function animatePercent(element, targetPercent) {
+        let start = 0;
+        const duration = 1500; // Animation duration in milliseconds
+        const increment = targetPercent / (duration / 16); // Assume ~60fps, so ~16ms per frame
+
+        function update() {
+            start += increment;
+            if (start >= targetPercent) {
+                element.textContent = `${Math.round(targetPercent)}%`;
+                return;
+            }
+            element.textContent = `${Math.round(start)}%`;
+            requestAnimationFrame(update);
+        }
+
+        update();
+    }
 </script>
     
 
